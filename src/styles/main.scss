@@ -21,6 +21,12 @@ body::-webkit-scrollbar-thumb {
 .container {
   position: relative;
   height: 100vh;
+  width: 1300px;
+  font-weight: 400;
+  padding-top: 110px;
+  color: $textColor;
+  margin: 0 auto;
+
   @media (min-width: 2100px) {
     margin-top: 80px;
     transform: scale(1.2);
@@ -32,11 +38,6 @@ body::-webkit-scrollbar-thumb {
     margin-top: 100px;
     transform: scale(1.4);
   }
-  width: 1300px;
-  font-weight: 400;
-  padding-top: 110px;
-  color: $textColor;
-  margin: 0 auto;
   @media (max-width: 1490px) {
     width: 900px;
     padding-top: 70px;
