@@ -1,18 +1,10 @@
 export default {
   about: {
     title: "Who am I?",
-    name: "My name is Artem, and I am frontend developer",
-    discipline: "I'm disciplined and responsible",
-    computer: "I'm pretty good at computers",
-    computerProblems:
-      "I know how to solve problems related to their malfunction",
-    computerBuilding: "I can build a computer from scratch",
-    computerKnowledge:
-      "Interested in the deeper structure and operation of computers",
-    otherSkills: `In addition to web programming I tried my hand at creating mobile applications with Flutter, 
-    as well as working with Photoshop, Davinci Resolve, and Cinema 4D`,
-    siteInfo:
-      "This site is made entirely by me, including the design, but I am not a web designer",
+    name: "My name is Artem and I have been a Frontend developer for three years.",
+    shortInfo: "Programming began to fascinate me a long time ago, I found my first job in this direction when I was 16 years old. By the way, the basis of this site, from the code to the design, was made then too.",
+    currentInfo: "I'm currently in my second year at the Higher School of Economics. And I'm looking for a job, since you're here 😉",
+    endInfo: "Let's move on to the next section!"
   },
   skills: {
     frontendDescription:
@@ -39,12 +31,16 @@ export default {
     onenilla: {
       title: "OneNilla",
       description:
-        "Website for the Minecraft server. Written with React + TypeScript, used Redux.",
+        "Website for the Minecraft server. Written with React + TypeScript.",
     },
     urlShortener: {
       title: "URL shortener",
       description: "Nest.js link shortener. Example: ",
     },
+    muziqo: {
+      title: "Muziqo",
+      description: "Fullstack project. A music listening service written in React, Typescript and Nest.js."
+    }
   },
   contacts: {
     title: "My contacts and social networks",

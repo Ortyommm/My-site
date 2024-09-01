@@ -19,18 +19,10 @@ export default ({ lang }: { lang: Languages }) => {
       <div className={cl.about}>
         <div className={cl.text}>
           <h1>{aboutText.title}</h1>
-          <Paragraph>{aboutText.name}.</Paragraph>
-          <Paragraph>{aboutText.discipline}.</Paragraph>
-          <Paragraph>
-            {aboutText.computer}:
-            <ul>
-              <li>{aboutText.computerProblems}.</li>
-              <li>{aboutText.computerBuilding}.</li>
-              <li>{aboutText.computerKnowledge}.</li>
-            </ul>
-          </Paragraph>
-          <Paragraph>{aboutText.otherSkills}.</Paragraph>
-          <Paragraph>{aboutText.siteInfo}.</Paragraph>
+          <Paragraph>{aboutText.name}</Paragraph>
+          <Paragraph>{aboutText.shortInfo}</Paragraph>
+          <Paragraph>{aboutText.currentInfo}</Paragraph>
+          <Paragraph>{aboutText.endInfo}</Paragraph>
           <BottomLink
             to="/skills"
             title={locales[lang].bottomLinks.skills}

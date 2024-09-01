@@ -48,6 +48,13 @@ export default function Projects({ lang }: { lang: Languages }) {
       href: "https://onenilla.netlify.app",
       description: projectsText.onenilla.description,
     },
+    {
+      src: "/images/project-images/muziqo.png",
+      alt: projectsText.muziqo.title,
+      git: "https://github.com/Ortyommm/muziqo",
+      href: "https://youtu.be/F3Ki_5bdsvg?si=8Obz0Vs9Czh1Z4iC",
+      description: projectsText.muziqo.description,
+    },
   ];
 
   return (

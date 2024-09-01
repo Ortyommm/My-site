@@ -29,6 +29,7 @@ export default ({ lang }: { lang: Languages }) => {
           <Skill src="/images/icons/Electron.svg" text="Electron" />
           <Skill src="/images/icons/CSS.svg" text="CSS/SCSS" />
           <Skill src="/images/icons/HTML.svg" text="HTML" />
+          <Skill src="/images/icons/canvas.svg" text="Canvas" />
         </SkillsBlock>
         <SkillsBlock
           title="Backend"
@@ -41,11 +42,6 @@ export default ({ lang }: { lang: Languages }) => {
         <SkillsBlock title={skillsText.mobileDevelopment}>
           <Skill src="/images/icons/Flutter.svg" text="Flutter" />
           <Skill src="/images/icons/Dart.svg" text="Dart" />
-        </SkillsBlock>
-        <SkillsBlock title={skillsText.software}>
-          <Skill src="/images/icons/Webstorm.svg" text="WebStorm" />
-          <Skill src="/images/icons/Figma.svg" text="Figma" />
-          <Skill src="/images/icons/Windows.svg" text="Windows" />
         </SkillsBlock>
       </div>
       <BottomLink
